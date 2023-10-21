@@ -5,6 +5,7 @@ CommunityByte is a project to collect and analyze the collective knowledge of th
 
 Cesar Hidalgo, author of "Why Information Grows" coined the term "personbyte" to refer to the maximum knowledge and knowhow of an individual.  He additionally refers to the "teambyte" and "firmbyte" as extensions of this concept.  We propose the "community byte" or c-byte as the collective knowledge and knowhow of a community.  This project seeks to transform the collective knowledge of the Rhino/Grasshopper community as represented in the Rhino community forum to make it usable and accessible in new contexts. 
 
+---
 Here's the steps we are planning:
 
 ## 1. Collect
@@ -16,6 +17,8 @@ Here's the steps we are planning:
 ## 4. Document
 - Document our process and our findings
 
+---
+
 if time allows, and as eventual goals, we hope/plan to pursue the following additional goals:
 ## 5. Apply
 - Use the model to train/tune an LLM to understand the semantic connection between a description of what a script does and the contents of the script
@@ -24,7 +27,9 @@ if time allows, and as eventual goals, we hope/plan to pursue the following addi
 - possibly using/in combination with [ghPT](https://github.com/enmerk4r/GHPT)
 ## 7. Iterate
 - analyze the quality of the scripts
-- identify potential changes to improve results  
+- identify potential changes to improve results
+
+---
 
 ## Team Members:
 Jerry - Chieh Jui Lee - [JERRRRY](https://github.com/JERRRRY) - [IIT](https://www.iit.edu/) (Illinois Institute of Technology) 
