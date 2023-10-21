@@ -9,25 +9,25 @@ Cesar Hidalgo, author of "Why Information Grows" coined the term "personbyte" to
 Here's the steps we are planning:
 
 ## 1. Collect
-- gather posts from the Rhino/McNeel forum with Grasshopper Scripts attached 
+- [ ] gather posts from the Rhino/McNeel forum with Grasshopper Scripts attached 
 ## 2. Extend
-- further characterize the posts with additional attributes relating to the contents of the scripts and/or other data points
+- [ ] further characterize the posts with additional attributes relating to the contents of the scripts and/or other data points
 ## 3. Analyze
-- perform analysis of the dataset with several goals in mind: Cleaning the data, qualifying it (predicting script quality), and providing insights about the data.
-## 4. Document
-- Document our process and our findings
-
+- [ ] perform analysis of the dataset with several goals in mind: Cleaning the data, qualifying it (predicting script quality), and providing insights about the data.
+## 4. Document & Share
+- [ ] Document our process and our findings
+- [ ] Share the dataset on [Kaggle](https://www.kaggle.com/datasets)
 ---
 
 if time allows, and as eventual goals, we hope/plan to pursue the following additional goals:
 ## 5. Apply
-- Use the model to train/tune an LLM to understand the semantic connection between a description of what a script does and the contents of the script
+- [ ] Use the model to train/tune an LLM to understand the semantic connection between a description of what a script does and the contents of the script
 ## 6. Generate
-- create new scripts using an LLM to automatically generate grasshopper components on the canvas
-- possibly using/in combination with [ghPT](https://github.com/enmerk4r/GHPT)
+- [ ] create new scripts using an LLM to automatically generate grasshopper components on the canvas
+- [ ] possibly using/in combination with [ghPT](https://github.com/enmerk4r/GHPT)
 ## 7. Iterate
-- analyze the quality of the scripts
-- identify potential changes to improve results
+- [ ] analyze the quality of the scripts
+- [ ] identify potential changes to improve results
 
 ---
 
