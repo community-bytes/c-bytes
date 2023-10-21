@@ -27,16 +27,16 @@ if time allows, and as eventual goals, we hope/plan to pursue the following addi
 - identify potential changes to improve results  
 
 ## Team Members:
-Jerry - Chieh Jui Lee - [JERRRRY](https://github.com/JERRRRY) - IIT (Illinois Institute of Technology) 
+Jerry - Chieh Jui Lee - [JERRRRY](https://github.com/JERRRRY) - [IIT](https://www.iit.edu/) (Illinois Institute of Technology) 
 
-Jo Kamm - [jkamm](https://github.com/jkamm) - [Dimensional Innovations](dimin.com)
+Jo Kamm - [jkamm](https://github.com/jkamm) - Digital Technology Lead at [Dimensional Innovations](dimin.com)
 
 Patryk Wozniczka - [patrykwoz](https://github.com/patrykwoz) - (association)
 
-Saumya Borwankar - [saumyaborwankar](https://github.com/saumyaborwankar) - IIT (Illinois Institute of Technology) 
+Saumya Borwankar - [saumyaborwankar](https://github.com/saumyaborwankar) - [IIT](https://www.iit.edu/) 
 
-Sid __ - (Github Username) - IIT (Illinois Institute of Technology)
+Sid __ - (Github Username) - [IIT](https://www.iit.edu/) 
 
-YongWon Jeong - (Github Username)  
+YongWon Jeong - [yjeong93](https://github.com/yjeong93) - Architectural professional 1 at [Wight&Company](https://www.wightco.com/)   
 
 
