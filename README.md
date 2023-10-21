@@ -1,7 +1,9 @@
 # c-bytes
 Made at/for the [Chicago Innovate Hackathon 2023](https://www.chicagoinnovate.tech/hackathon)
 
-Community Bytes is a project to collect and analyze the collective knowledge of the community using Rhino and Grasshopper on the [McNeel Forum](https://discourse.mcneel.com/).  Our ultimate goal is to develop a dataset which can be used to tune and/or train an LLM to act as a co-pilot for an LLM-driven Grasshopper Co-pilot.  
+CommunityByte is a project to collect and analyze the collective knowledge of the community using Rhino and Grasshopper on the [McNeel Forum](https://discourse.mcneel.com/).  Our ultimate goal is to develop a dataset which can be used to tune and/or train an LLM to act as a co-pilot for an LLM-driven Grasshopper Co-pilot.  
+
+Cesar Hidalgo, author of "Why Information Grows" coined the term "personbyte" to refer to the maximum knowledge and knowhow of an individual.  He additionally refers to the "teambyte" and "firmbyte" as extensions of this concept.  We propose the "community byte" or c-byte as the collective knowledge and knowhow of a community.  This project seeks to transform the collective knowledge of the Rhino/Grasshopper community as represented in the Rhino community forum to make it usable and accessible in new contexts. 
 
 Here's the steps we are planning:
 
@@ -27,11 +29,11 @@ if time allows, and as eventual goals, we hope/plan to pursue the following addi
 ## Team Members:
 Jerry - Chieh Jui Lee - [JERRRRY](https://github.com/JERRRRY) - IIT (Illinois Institute of Technology) 
 
-Jo Kamm - [jkamm](https://github.com/jkamm) - Dimensional Innovations
+Jo Kamm - [jkamm](https://github.com/jkamm) - [Dimensional Innovations](dimin.com)
 
 Patryk Wozniczka - [patrykwoz](https://github.com/patrykwoz) - (association)
 
-Saumya - (Github Username) - IIT (Illinois Institute of Technology) 
+Saumya Borwankar - [saumyaborwankar](https://github.com/saumyaborwankar) - IIT (Illinois Institute of Technology) 
 
 Sid __ - (Github Username) - IIT (Illinois Institute of Technology)
 
