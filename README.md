@@ -9,19 +9,28 @@ Cesar Hidalgo, author of "Why Information Grows" coined the term "personbyte" to
 Here's the steps we are planning:
 
 ## 1. Collect
-- [ ] gather posts from the Rhino/McNeel forum with Grasshopper Scripts attached
-- [ ] method 1: scrape the website directly
-- [ ] method 2: using [Discourse OpenAPI](https://docs.discourse.org/)
+- ### method 1: scrape the website directly
+- [ ] gather posts from the Rhino/McNeel forum
+- [ ] gather only posts with Grasshopper Scripts attached
+- ### method 2: using [Discourse OpenAPI](https://docs.discourse.org/)
+- [ ] gather posts from the Rhino/McNeel forum
+- [ ] gather only posts with Grasshopper Scripts attached
+- [ ] overcome 30 post limit   
 ## 2. Extend
-- [ ] further characterize the posts with additional attributes relating to the contents of the scripts and/or other data points
+- further characterize the posts with additional attributes relating to the contents of the scripts and/or other data points
 - [ ] Get the list of components in each script (using [david rutten's script parser](https://discourse.mcneel.com/t/get-grasshopper-document-object-count-without-opening-grasshopper/78311/4))
+- [ ] convert DR program to output csv
+- [ ] automate use of DR-based program
 - [ ] Analyze images in posts - is it a picture of the script? of the script output? neither? 
 ## 3. Analyze
 - perform analysis of the dataset with several goals in mind: Cleaning the data, qualifying it (predicting script quality), and providing insights about the data.
 - [ ] Find/identify a list of grasshopper "stop words" - the most common components that should be ignored when characterizing scripts
 - [ ] qualify script qulaity by proxy (author?)
+- [x] identify example scripts from Omid Sajedi workshop to use as bases for development
+- [ ] modify example scripts with cbyte dataset (simplified or otherwise)
 ## 4. Document & Share
-- [ ] Document our process and our findings
+- Document our process and our findings
+- [x] maintain readme to reflect progress 
 - [ ] Share the dataset on [Kaggle](https://www.kaggle.com/datasets)
 ---
 
