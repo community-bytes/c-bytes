@@ -1,8 +1,6 @@
 from flask import (Flask, request, flash, render_template, redirect, url_for, 
                    session, make_response, jsonify)
 import requests
-from babel.numbers import get_currency_symbol
-from helpers import (make_api_request, clear_session_data, validate_form_input, perform_conversion)
 from configparser import ConfigParser
 
 config = ConfigParser()
