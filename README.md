@@ -5,7 +5,10 @@ Made at/for the [Chicago Innovate Hackathon 2023](https://www.chicagoinnovate.te
 G-Chomp is a project to collect and analyze the collective knowledge of the community using Rhino and Grasshopper on the [McNeel Forum](https://discourse.mcneel.com/).  Our current goal is to develop a dataset which can be used to tune and/or train an LLM to act as a co-pilot for an LLM-driven Grasshopper Co-pilot.  
 
 Cesar Hidalgo, author of "Why Information Grows" coined the term "personbyte" to refer to the maximum knowledge and knowhow of an individual.  He additionally refers to the "teambyte" and "firmbyte" as extensions of this concept.  we propose the term “community-byte” as a measure of the limits of a communal store of knowledge, and “G-CHOMP” as a Grasshopper-specific community-byte.  This project seeks to transform the collective knowledge of the Rhino/Grasshopper community as represented in the Rhino community forum to make it usable and accessible in new contexts. 
-  
+
+# Interactive Web UI
+![image](https://github.com/saumyaborwankar/c-bytes/assets/46644513/da2c7713-4efc-4b10-bb96-fea4bb801340)
+
 
 ---
 Here are the steps we are planning:
