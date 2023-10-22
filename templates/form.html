@@ -1,0 +1,18 @@
+
+
+{% extends 'base.html' %}
+
+{% block title %}C-Bytes{% endblock %}
+
+{% block content %}
+
+    <h1>Upload .gh File</h1>
+    <form action="/convert_gh_to_ghx" method="post" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" value="Upload">
+    </form>
+
+{% endblock %}
+
+    
+
