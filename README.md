@@ -7,7 +7,7 @@ G-Chomp is a project to collect and analyze the collective knowledge of the comm
 Cesar Hidalgo, author of "Why Information Grows" coined the term "personbyte" to refer to the maximum knowledge and knowhow of an individual.  He additionally refers to the "teambyte" and "firmbyte" as extensions of this concept.  we propose the term “community-byte” as a measure of the limits of a communal store of knowledge, and “G-CHOMP” as a Grasshopper-specific community-byte.  This project seeks to transform the collective knowledge of the Rhino/Grasshopper community as represented in the Rhino community forum to make it usable and accessible in new contexts. 
 
 # Interactive Web UI
-![image](https://github.com/saumyaborwankar/c-bytes/assets/46644513/da2c7713-4efc-4b10-bb96-fea4bb801340 | width=100)
+<img src="https://github.com/saumyaborwankar/c-bytes/assets/46644513/da2c7713-4efc-4b10-bb96-fea4bb801340" width="100" height="100">
 
 
 ---
