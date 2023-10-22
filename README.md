@@ -10,12 +10,12 @@ Here's the steps we are planning:
 
 ## 1. Collect
 - ### method 1: scrape the website directly
-- [ ] gather posts from the Rhino/McNeel forum
+- [x] gather posts from the Rhino/McNeel forum
 - [ ] gather only posts with Grasshopper Scripts attached
 - ### method 2: using [Discourse OpenAPI](https://docs.discourse.org/)
-- [ ] gather posts from the Rhino/McNeel forum
+- [x] gather posts from the Rhino/McNeel forum
 - [ ] gather only posts with Grasshopper Scripts attached
-- [ ] overcome 30 post limit   
+- [x] overcome 30 post limit   
 ## 2. Extend
 - further characterize the posts with additional attributes relating to the contents of the scripts and/or other data points
 - [ ] Get the list of components in each script (using [david rutten's script parser](https://discourse.mcneel.com/t/get-grasshopper-document-object-count-without-opening-grasshopper/78311/4))
@@ -25,7 +25,7 @@ Here's the steps we are planning:
 ## 3. Analyze
 - perform analysis of the dataset with several goals in mind: Cleaning the data, qualifying it (predicting script quality), and providing insights about the data.
 - [ ] Find/identify a list of grasshopper "stop words" - the most common components that should be ignored when characterizing scripts
-- [ ] qualify script qulaity by proxy (author?)
+- [ ] qualify script quality by proxy (author?)
 - [x] identify example scripts from Omid Sajedi workshop to use as bases for development
 - [ ] modify example scripts with cbyte dataset (simplified or otherwise)
 ## 4. Document & Share
@@ -34,7 +34,7 @@ Here's the steps we are planning:
 - [ ] Share the dataset on [Kaggle](https://www.kaggle.com/datasets)
 ---
 
-if time allows, and as eventual goals, we hope/plan to pursue the following additional goals:
+We hope/plan to pursue the following additional goals:
 ## 5. Apply
 - [ ] Use the model to train/tune an LLM to understand the semantic connection between a description of what a script does and the contents of the script
 ## 6. Generate
@@ -43,6 +43,7 @@ if time allows, and as eventual goals, we hope/plan to pursue the following addi
 ## 7. Iterate
 - [ ] analyze the quality of the scripts
 - [ ] identify potential changes to improve results
+- [ ] Expand the dataset
 
 ---
 
