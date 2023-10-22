@@ -59,7 +59,7 @@ Patryk Wozniczka - [patrykwoz](https://github.com/patrykwoz)
 
 Saumya Borwankar - [saumyaborwankar](https://github.com/saumyaborwankar) - [IIT](https://www.iit.edu/) 
 
-Sid __ - (Github Username) - [IIT](https://www.iit.edu/) 
+Siddhartha Upase - [IIT](https://www.iit.edu/) 
 
 YongWon Jeong - [yjeong93](https://github.com/yjeong93) - Architectural professional 1 at [Wight&Company](https://www.wightco.com/)   
 
