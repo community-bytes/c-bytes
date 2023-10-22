@@ -19,16 +19,17 @@ Here are the steps we are planning:
 - [x] overcome 30 post limit   
 ## 2. Extend
 - further characterize the posts with additional attributes relating to the contents of the scripts and/or other data points
-- [ ] Get the list of components in each script (using [david rutten's script parser](https://discourse.mcneel.com/t/get-grasshopper-document-object-count-without-opening-grasshopper/78311/4))
-- [ ] convert DR program to output csv
-- [ ] automate use of DR-based program and link per dataset entry
-- [ ] Analyze images in posts - is it a picture of the script? of the script output? neither? 
+- [ ] Get the list of components in each script (using [david rutten's script parser](https://discourse.mcneel.com/t/get-grasshopper-document-object-count-without-opening-grasshopper/78311/4) or .ghx xml crawler)
+- [ ] convert program to output csv
+- [ ] automate use of program and link per dataset entry
+- [ ] Characterize images in posts - is it a picture of the script? of the script output? neither? 
 ## 3. Analyze
 - perform analysis of the dataset with several goals in mind: Cleaning the data, qualifying it (predicting script quality), and providing insights about the data.
-- [ ] Find/identify a list of grasshopper "stop words" - the most common components that should be ignored when characterizing scripts
-- [ ] qualify script quality by proxy (author?)
+- [x] Find/identify a list of Rhino/Grasshopper "stop words" - common words in posts that should be ignored when characterizing topic conversations
+- [ ] Find/identify a list of Grasshopper "stop words" - the most common components that should be ignored when characterizing scripts
+- [ ] qualify script quality by proxy (author? number of posts? Some keywords to include/exclude?)
 - [x] identify example scripts from Omid Sajedi workshop to use as bases for development
-- [ ] modify example scripts with cbyte dataset (simplified or otherwise)
+- [x] modify example scripts with cbyte dataset (simplified or otherwise)
 ## 4. Document & Share
 - Document our process and our findings
 - [x] maintain readme to reflect progress 
@@ -66,4 +67,4 @@ YongWon Jeong - [yjeong93](https://github.com/yjeong93) - Architectural professi
 - [Discourse API](https://docs.discourse.org/)
 - [Grasshopper file analytics tool](https://discourse.mcneel.com/t/get-grasshopper-document-object-count-without-opening-grasshopper/78311)
 - [gh to ghx tool](https://bitbucket.org/RILGH/ghtoghx/src/master/)
-- AI & ML Workshop - Omid Sajedi (link forthcoming)
+- [Becoming AI Power-Users: A Hands-on Workshop on Machine Learning and Generative AI](https://www.chicagoinnovate.tech/courses-1/becoming-ai-power-users%3A-a-hands-on-workshop-on-machine-learning-and-generative-ai) by Seyedomid Sajedi of Thornton Thomasetti during Chicago Innovate 2023 (github link forthcoming soon)
