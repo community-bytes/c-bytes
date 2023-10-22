@@ -1,4 +1,5 @@
-# G-Chomp: A Grasshopper Community-Byte
+
+# <img src="https://github.com/community-bytes/c-bytes/assets/9583495/098d7028-15fb-4a98-bb5a-3e6f5fde8de1" width="50"/> G-Chomp: A Grasshopper Community-Byte
 Made at/for the [Chicago Innovate Hackathon 2023](https://www.chicagoinnovate.tech/hackathon)
 
 G-Chomp is a project to collect and analyze the collective knowledge of the community using Rhino and Grasshopper on the [McNeel Forum](https://discourse.mcneel.com/).  Our current goal is to develop a dataset which can be used to tune and/or train an LLM to act as a co-pilot for an LLM-driven Grasshopper Co-pilot.  
@@ -58,7 +59,7 @@ Patryk Wozniczka - [patrykwoz](https://github.com/patrykwoz)
 
 Saumya Borwankar - [saumyaborwankar](https://github.com/saumyaborwankar) - [IIT](https://www.iit.edu/) 
 
-Sid __ - (Github Username) - [IIT](https://www.iit.edu/) 
+Siddhartha Upase - [IIT](https://www.iit.edu/) 
 
 YongWon Jeong - [yjeong93](https://github.com/yjeong93) - Architectural professional 1 at [Wight&Company](https://www.wightco.com/)   
 
