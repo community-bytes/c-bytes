@@ -33,10 +33,21 @@ firebase.initializeApp({
 });
 
 import data from "./output.json"; // Replace with your JSON URL
-console.log(data[0]);
+const fn = (posts) => {
+  posts.map((post) => {
+    if (post.url.length > 1) {
+      return { bool: true, url: post.url[0] };
+    }
+  });
+  return { bool: false, url: "" };
+};
 const gh_files = data.map((topic) => {
-  return topic.topics.id;
+  if (topic.topics.posts.url > 1) {
+    return topic.topics.posts.url[0];
+  }
+  return "";
 });
+
 console.log(gh_files);
 const auth = firebase.auth();
 const firestore = firebase.firestore();
@@ -156,8 +167,8 @@ function ChatRoom() {
         });
 
       await messagesRef.add({
-        // text: "According to the discussions, there is a way to use the softmove tool using grasshoper. You can use this softmove.gh to test things out",
-        text: "According to the discussions, I found this to be helpful ", //+
+        text: "According to the discussions, there is a way to use the softmove tool using grasshoper. You can use this softmove.gh to test things out",
+        // text: "According to the discussions, I found this to be helpful ", //+
         createdAt: firebase.firestore.FieldValue.serverTimestamp(),
         uid: "x0gS8dSQScO1AZg3XHEt",
       });
