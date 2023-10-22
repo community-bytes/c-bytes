@@ -33,7 +33,7 @@ def parse_json(data, is_solution=True):
             'username': 'answer-username',
             'cooked': 'text'
         }
-        df = df[['id', 'name', 'username', 'cooked']].rename(columns=columns)
+        df = df[['id', 'name', 'username', 'cooked', 'score', 'reads', 'readers_count', 'trust_level']].rename(columns=columns)
         df['image_urls'] = df['text'].apply(extract_image_urls)
         df['file_urls'] = df['text'].apply(extract_file_urls)
     else:
@@ -75,7 +75,7 @@ def save_to_json(data, directory='jsons', filename='response.json'):
 if __name__ == "__main__":
     max_count = 80717 + 15
 
-    for i in range(80717 - 1500, max_count):
+    for i in range(80717 - 10000, max_count):
         url = f"https://discourse.mcneel.com/t/{i}.json"
         try:
             response = fetch_data(url, params={})
@@ -100,7 +100,7 @@ if __name__ == "__main__":
 
             accepted_answer = data[accepted_post_number - 1] if accepted_post_number > 0 else None
         except:
-            print(f"Retrieving the accepted answer for the id {} failed")
+            print(f"Retrieving the accepted answer for the id {i} failed")
         
         if accepted_answer:
             df_solution = parse_json(accepted_answer)
